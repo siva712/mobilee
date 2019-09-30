@@ -1,0 +1,12 @@
+
+<form [formGroup]="signup"> 
+    <div>
+        &emsp;&emsp;Email :&nbsp;<input type="text" formControlName="Email" placeholder="enter Email" ><br><br> 
+      password:&emsp;<input type="password" formControlName="password"><br>
+      <br>
+      &emsp;&emsp;<button (click)="sig(signup)">click</button><br>
+      already have  an account <a routerLink="login">login here</a>
+
+    </div>
+
+ </form> 

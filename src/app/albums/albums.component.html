@@ -1,0 +1,5 @@
+<h1>The Album List</h1>
+<hr color="red">
+<span *ngFor="let a of data" (click)="add(a)">
+    <h2 id="c">{{a.title}}</h2>
+</span>
